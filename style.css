@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #9ebefe8a;
+}
+
+.header {
+    display: flex;
+    min-height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: rgba(147, 147, 248, 0.818);
+    border-bottom: 2px solid rgb(39, 39, 97);
+}
+
+.header__list {
+    display: flex;
+    list-style-type: none;
+    column-gap: 50px;
+}
+
+.header__link {
+    font-size: 25px;
+    font-family: "Alegreya SC", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(47, 47, 226);
+    text-decoration: none;
+}
+
+.header__link:hover {
+    color: rgba(255, 255, 255, 0.904);
+}
+
+.header__btn {
+    color: rgb(47, 47, 226);
+    font-size: 25px;
+    font-family: "Alegreya SC", serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 150px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.904);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.hero {
+    display: grid;
+    height: 600px;
+    grid-template-columns: 50% 50%;
+    margin-left: 120px;
+    margin-right: 110px;
+}
+
+.hero__wrap {
+    text-align: start;
+    margin-top: 50px;
+}
+
+.hero__heading {
+    font-size: 35px;
+    font-family: "Alegreya SC", serif;
+    font-weight: 700;
+    font-style: normal;
+    border-left: 6px solid rgb(47, 47, 226);
+    padding-left: 10px;
+}
+
+.hero__text {
+    font-size: 19px;
+    font-family: "Comic Relief", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 25px;
+}
+
+.hero__list {
+    list-style-type: circle;
+}
+
+.hero__items {
+    font-size: 19px;
+    font-family: "Comic Relief", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 3px;
+}
+
+.hero__img {
+    width: 550px;
+    height: 530px;
+}
+
+.footer {
+    display: flex;
+    min-height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    background-color: rgba(147, 147, 248, 0.818);
+    border-top: 2px solid rgb(39, 39, 97);
+}
+
+.footer__list_one {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.footer__item_one {
+    margin-bottom: 10px;
+}
+
+.footer__connect {
+    font-size: 20px;
+    font-family: "Comic Relief", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer__connect:hover {
+    color: azure;
+}
+
+.footer__list_two {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    column-gap: 20px;
+}
+
+.footer__item_img {
+    width: 40px;
+    height: 40px;
+}
